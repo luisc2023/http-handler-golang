@@ -7,7 +7,7 @@ import (
 	"github.com/luisc2023/http-handler-golang/middleware"
 )
 
-func UserRoutes() *http.ServeMux {
+func MainRoutes() *http.ServeMux {
 
 	mux := http.NewServeMux()
 

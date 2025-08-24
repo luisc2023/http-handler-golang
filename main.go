@@ -11,7 +11,7 @@ import (
 func main() {
 	fmt.Println("Hi Folks!")
 
-	router := routes.UserRoutes()
+	router := routes.MainRoutes()
 
 	server := &http.Server{
 		Addr:           "localhost:8080",
